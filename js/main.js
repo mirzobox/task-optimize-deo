@@ -3,7 +3,9 @@ jQuery(document).ready(function ($) {
 
   const lbClose = document.querySelector(".lb-close");
   const lbCancel = document.querySelector(".lb-cancel");
+  const slickActive = document.querySelector(".slick-active");
 
+  slickActive.setAttribute("role", "listitem");
   lbCancel.setAttribute("role", "button");
   lbCancel.setAttribute("href", "#");
   lbClose.setAttribute("role", "button");
