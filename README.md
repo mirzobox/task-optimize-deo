@@ -1,1 +1,1 @@
-# Men tezlikman : (|)
+# Men tezlikman :)
