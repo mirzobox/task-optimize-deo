@@ -4,6 +4,8 @@ jQuery(document).ready(function ($) {
   const lbClose = document.querySelector(".lb-close");
   const lbCancel = document.querySelector(".lb-cancel");
   const slickActives = document.querySelectorAll(".slick-active");
+  const prev = document.querySelector(".owl-prev");
+  const next = document.querySelector(".owl-next");
   if (slickActives) {
     slickActives.forEach((el) => {
       el.setAttribute("role", "listitem");
@@ -13,6 +15,9 @@ jQuery(document).ready(function ($) {
   lbCancel.setAttribute("href", "#");
   lbClose.setAttribute("role", "button");
   lbClose.setAttribute("href", "#");
+
+  prev && prev.setAttribute("role", "button");
+  next && next.setAttribute("role", "button");
 
   $(".Modern-Slider").slick({
     autoplay: true,

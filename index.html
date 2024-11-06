@@ -99,7 +99,7 @@
                   Please share our site link to your friends.
                 </p>
                 <div class="white-button button">
-                  <a href="#featured">Discover More</a>
+                  <a href="#featured" aria-hidden="true">Discover More</a>
                 </div>
               </div>
             </div>
@@ -1026,7 +1026,12 @@
                   </div>
                   <div class="col-md-12">
                     <fieldset>
-                      <button type="submit" id="form-submit" class="btn">
+                      <button
+                        type="submit"
+                        role="button"
+                        id="form-submit"
+                        class="btn"
+                      >
                         Send Message Now
                       </button>
                     </fieldset>
